@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lista com temas</title>
         <link rel="stylesheet" href="lista.css">
-     
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" >
+
     </head>
     <body>
         
-        <div>
+        <div class="mudaTema">
             <input type="checkbox" name="theme" id="theme">
             <label for="theme">Mudar tema</label>
         </div>
@@ -41,45 +42,71 @@
             <div class="imgContainer">
 
                 <div class="imgBox">
-                    <p>Lobo Guará: Chrysocyon brachyurus</p><br>
-                    <img src="imagens/lobo-guara.jpg" width="300" height="192"><br>
-            <br>
-            <p>Reino: Animalia <br>Filo: Chordata <br>
-            Classe: Mammalia <br>Ordem: Carnivora <br> Família: Canidae <br>Género: Chrysocyon <br>Espécie: C. brachyurus</p>
+                    <div class="card bg-success">
+                        <div class="card-body text-center">
+                            <p>Lobo Guará: Chrysocyon brachyurus</p><br>
+                            <img src="imagens/lobo-guara.jpg" width="300" height="192">
+                    <br><br>
+                          <p class="card-text"><p>Reino: Animalia <br>Filo: Chordata <br>
+                            Classe: Mammalia <br>Ordem: Carnivora <br> Família: Canidae <br>Género: Chrysocyon <br>Espécie: C. brachyurus</p>
+                            </p>
+                        </div>
+                      </div>
             
         </div>
         
         <div class="imgBox">
-        <p>Polvo: Octopus vulgaris</p><br>
-        <img src="imagens/polvo.jpg" width="300" height="192">
-        <br>    <br>
-        <p>Reino: Animalia <br>Filo: Molusca <br>
-            Classe: Cephalopoda <br>Ordem: Octopoda <br>Família: Octopodidae <br>Género: Octopus <br>Espécie: O. Vulgaris</p>
-        </div>
-
-        <div class="imgBox">
-            <p>Orca: Orcinus orca</p>
-            <br>
-            <img src="imagens/orca.jpg" width="300" height="192">
-            <br><br>
-            <p>Reino: Animalia <br>Filo: Molusca <br>
-                Classe: Mammalia <br>Ordem: Octopoda <br>Família: Octopodidae <br>Género: Octopus <br>Espécie: O. Vulgaris</p>
-
-        </div>
+            <div class="card bg-success">
+                <div class="card-body text-center">
+                    <p>Polvo: Octopus vulgaris</p><br>
+                    <img src="imagens/polvo.jpg" width="300" height="192">
+                    <br>    <br>
+                  <p class="card-text"><p>Reino: Animalia <br>Filo: Molusca <br>
+                    Classe: Cephalopoda <br>Ordem: Octopoda <br>Família: Octopodidae <br>Género: Octopus <br>Espécie: O. Vulgaris</p></p>
+                </div>
+              </div>
         
-       <!--<div class="imgBox">
-            <p>Girafa: Giraffa camelopardalis</p>
-            <br>
-            <img src="imagens/Curious giraffe!.jpg" width="300" height="192">
-            <br><br>
-            <p>Reino: Animalia <br>Filo: Chordata <br>Classe: Mammalia <br>Ordem: Artiodactyla
-            Família: Giraffidae <br>Género: Giraffa <br>Espécie: Camelopardalis</p>
-        </div>-->
+        </div>
+            
+
+
+            
+        <div class="imgBox">
+            <div class="card bg-success">
+                <div class="card-body text-center">
+                    <p>Orca: Orcinus orca</p>
+                    <br>
+                    <img src="imagens/orca.jpg" width="300" height="192">
+                    <br><br>
+                    <p class="card-text"><p>Reino: Animalia <br>Filo: Molusca <br>
+                      Classe: Mammalia <br>Ordem: Octopoda <br>Família: Octopodidae <br>Género: Octopus <br>Espécie: O. Vulgaris</p></p>
+                  
+                </div>
+              </div>
+
+        </div>
+        <br>
+
+
+      <div class="imgBox">
+           <div class="card-deck">
+               <div class="card bg-success">
+                   <div class="card-body text-center">
+                      <p>Girafa: Giraffa camelopardalis</p>
+                      <br>
+                      <img src="imagens/Curious giraffe!.jpg" width="300" height="192">
+                      <br><br>
+                    <p class="card-text"><p>Reino: Animalia <br>Filo: Chordata <br>Classe: Mammalia <br>Ordem: Artiodactyla
+                        Família: Giraffidae <br>Género: Giraffa <br>Espécie: Camelopardalis</p></p>
+                  </div>
+            </div>
+            
+        </div>
 
         
     </div>
         
-
-        <script src="lista.js"></script>
+</div>
+        <script src="js/lista.js"></script>
     </body>
     </html>
